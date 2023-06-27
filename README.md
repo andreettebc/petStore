@@ -1,4 +1,4 @@
-# Arquetipo Básico de Pruebas Automatizadas para microservicios con Karate DSL
+# Evaluacion de APIS
 
 ## Pre-requisitos
 
@@ -17,9 +17,8 @@
 Clonar el proyecto
 
 ```bash
-  git clone https://github.com/frankramle/karate-gradle.git
+  git clone https://github.com/andrettebc/karate-petStore
 ```
-
 Entrar al directorio del proyecto
 
 ```bash
@@ -31,14 +30,22 @@ Para decargar todas las dependencias y no ejecutar los test
 ```bash
   gradle clean build -x test 
 ```
-Para ejecutar todos los features por linea de comandos
+
+Para ejecutar el escenario:
+
+Dirijase al path :
 ```bash
-  gradle clean test 
+src\test\java\features\petStoreUser\
 ```
-Para ejecutar solo los escenarios por medio de un tag determinado que se envia por linea de comando
+En el archivo **user.feature** Presionar Click derecho y ejecutar la opcion > Run 'Feature: user'
+
+
+## Reporte
+Luego de la ejecución, para abrir el reporte dirigirse abrir el archivo **karate-summary.html** que se encuentra en el siguiente path:
 ```bash
-  gradle clean test "-Dkarate.options=--tags @soap"
+EvalKarateNttdata\target\karate-reports\karate-summary.html
 ```
+
 
 > **NOTA**:
 > * Para ejecutar el proyecto se necesita Java JDK 11 y Gradle con la versión 7.6 o superior.
@@ -55,3 +62,4 @@ La automatización fue desarrollada con:
 ## Documentacion
 
 [Karate DSL](https://github.com/karatelabs/karate)
+
