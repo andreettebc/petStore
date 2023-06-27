@@ -17,7 +17,7 @@
 Clonar el proyecto
 
 ```bash
-  git clone https://github.com/andrettebc/karate-petStore
+  git clone https://github.com/andrettebc/petStore
 ```
 Entrar al directorio del proyecto
 
