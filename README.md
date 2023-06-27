@@ -35,7 +35,7 @@ Para ejecutar el escenario:
 
 Dirijase al path :
 ```bash
-src\test\java\features\petStoreUser\
+src\test\java\features\petStore-karate\
 ```
 En el archivo **user.feature** Presionar Click derecho y ejecutar la opcion > Run 'Feature: user'
 
